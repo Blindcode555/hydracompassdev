@@ -2299,3 +2299,25 @@ body {
   .rdr-n       { font-size: 0.44rem; }
   .rds-status  { gap: 0.5rem; padding: 0.5rem 0.75rem; }
 }
+/* HARD RESET HERO BACKGROUND */
+
+body::before,
+body::after {
+  background: none !important;
+  animation: none !important;
+}
+
+.hero-stars,
+.grid-overlay,
+.canvas-layer {
+  display: none !important;
+}
+
+body {
+  background: radial-gradient(
+      ellipse at 50% 20%,
+      rgba(0, 40, 90, 0.15),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #050607 0%, #020304 100%) !important;
+}
