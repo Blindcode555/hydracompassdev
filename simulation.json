@@ -1,0 +1,164 @@
+{
+  "missions": [
+    {
+      "id": "sim_youtube_001",
+      "title": "Create an AI YouTube Channel",
+      "difficulty": "beginner",
+      "estimated_time": "2–4 weeks",
+      "steps": [
+        {
+          "name": "Define Your Niche",
+          "console": "Identify a focused topic with search demand and low competition. Narrow until the channel can own a specific corner of YouTube."
+        },
+        {
+          "name": "Research Topics",
+          "console": "Use Perplexity AI to find the top 10 questions your audience searches. Filter for videos under 50K views — that is your opportunity window."
+        },
+        {
+          "name": "Generate Your First Script",
+          "console": "Feed your topic into Claude with the hook–problem–solution–CTA structure. Target 1,500 words for a 10-minute video. Never start with 'Hey guys.'"
+        },
+        {
+          "name": "Produce the Video",
+          "console": "Record voiceover with ElevenLabs or direct to camera. Capture B-roll. Edit in CapCut — cut every pause over 1.5 seconds."
+        },
+        {
+          "name": "Optimise and Publish",
+          "console": "Write the SEO package: title under 60 characters, keyword-first description, 15 tags mixing broad and long-tail. Publish. First 48 hours are critical."
+        },
+        {
+          "name": "Repurpose and Distribute",
+          "console": "Extract the best 60 seconds for a Short. Write an 8-tweet thread. Draft a LinkedIn post. One video becomes five assets."
+        }
+      ]
+    },
+    {
+      "id": "sim_book_001",
+      "title": "Write a Book with AI",
+      "difficulty": "intermediate",
+      "estimated_time": "6–12 weeks",
+      "steps": [
+        {
+          "name": "Define the Premise",
+          "console": "Write one sentence: what does this book argue or teach, and for whom? If you cannot summarise it in one sentence, the book is not ready to write."
+        },
+        {
+          "name": "Build the Outline",
+          "console": "Ask Claude to generate a 10-chapter structure. Each chapter needs one core idea and one anchor story. The outline is the argument — pressure-test it before writing."
+        },
+        {
+          "name": "Research and Evidence",
+          "console": "Use Perplexity AI to find one strong data point, one case study, and one counterargument per chapter. Build your evidence library before touching prose."
+        },
+        {
+          "name": "Draft Each Chapter",
+          "console": "Write one chapter per session. Give Claude the chapter goal, the core argument, and a 2,500-word target. Do not edit while drafting — velocity over perfection."
+        },
+        {
+          "name": "Edit and Refine",
+          "console": "Edit macro first: does the argument hold? Then micro: cut the 3 weakest sentences per chapter. Run a readability pass in ProWritingAid. Delete all passive voice."
+        },
+        {
+          "name": "Format and Publish",
+          "console": "Format in Atticus for both print and ebook. Upload to Amazon KDP. Set your launch strategy: ARC readers first, then email list, then social."
+        }
+      ]
+    },
+    {
+      "id": "sim_startup_001",
+      "title": "Launch a Startup",
+      "difficulty": "advanced",
+      "estimated_time": "3–6 months",
+      "steps": [
+        {
+          "name": "Validate the Problem",
+          "console": "Talk to 10 potential customers before writing a single line of code. Confirm this is a recurring pain they actively pay to solve. No validation — no build."
+        },
+        {
+          "name": "Define the MVP",
+          "console": "Scope the minimum version that proves your core hypothesis. One job done well. Cut everything that does not answer: does this solve the problem?"
+        },
+        {
+          "name": "Build the Product",
+          "console": "Use Cursor and Supabase to ship in 4–6 weeks, not 6 months. Hard-code what you can fake. The goal is your first real user, not a perfect product."
+        },
+        {
+          "name": "Test with Real Users",
+          "console": "Get 10 beta users before any marketing. Watch them use the product without explaining anything. What confuses them is your product roadmap."
+        },
+        {
+          "name": "Launch Publicly",
+          "console": "Ship to Product Hunt, post build-in-public on X, and email your waitlist. A launch reveals what to fix faster than months of internal testing."
+        },
+        {
+          "name": "Scale What Works",
+          "console": "Fix retention before doubling acquisition. Identify your one growth channel. Review five metrics every Monday: activation, retention, revenue, churn, NPS."
+        }
+      ]
+    },
+    {
+      "id": "sim_automate_001",
+      "title": "Automate a Business Task",
+      "difficulty": "beginner",
+      "estimated_time": "1–2 weeks",
+      "steps": [
+        {
+          "name": "Map the Manual Process",
+          "console": "Document every step of the current workflow before touching any tool. List each click, decision, and handoff. Never automate a broken process."
+        },
+        {
+          "name": "Identify the Trigger",
+          "console": "Define the exact event that starts this process: a new email, a form submission, a scheduled time, or a data change. No trigger — no automation."
+        },
+        {
+          "name": "Choose the Platform",
+          "console": "Match the tool to the complexity. Zapier for speed. Make.com for visual logic. n8n for self-hosted. Custom Python when no-code cannot do the job."
+        },
+        {
+          "name": "Build the Flow",
+          "console": "Construct one module at a time. Test each step in isolation before connecting the full chain. Add a filter for every decision point a human currently makes."
+        },
+        {
+          "name": "Test on Real Data",
+          "console": "Run 10 real test cases before enabling on production data. Verify each module output is exactly correct. Define your rollback plan before going live."
+        },
+        {
+          "name": "Deploy and Monitor",
+          "console": "Enable live. Set failure alerts to Slack or email within 60 seconds of any error. Review run logs every day for the first week. Document everything."
+        }
+      ]
+    },
+    {
+      "id": "sim_ai_tool_001",
+      "title": "Build an AI Tool",
+      "difficulty": "intermediate",
+      "estimated_time": "2–6 weeks",
+      "steps": [
+        {
+          "name": "Define the AI Task",
+          "console": "Write the exact task the AI performs in one sentence: input, transformation, output. If you cannot write it in one sentence, the product is not scoped tightly enough."
+        },
+        {
+          "name": "Engineer the Prompt",
+          "console": "The prompt is the product. Write the full system prompt: role, task, output format, edge case handling, and hard rules. Test it on 20 inputs before building any UI."
+        },
+        {
+          "name": "Build the Integration",
+          "console": "Connect the prompt to a minimal interface using the Anthropic or OpenAI SDK. A text input, an API call, and a result display is enough to test your core hypothesis."
+        },
+        {
+          "name": "Evaluate Output Quality",
+          "console": "Build a 20-case eval set: 10 standard, 5 edge cases, 5 adversarial inputs. Score each output on your quality criteria. What you measure, you can systematically improve."
+        },
+        {
+          "name": "Add Billing and Ship",
+          "console": "Integrate Stripe before scaling. Model options: freemium, usage-based, or subscription tiers. Calculate your cost per user at 100, 1,000, and 10,000 requests per month."
+        },
+        {
+          "name": "Iterate from Feedback",
+          "console": "Add thumbs up / down ratings to every output. Low-rated outputs reveal prompt weaknesses. Version your prompts. A/B test improvements without disrupting all users."
+        }
+      ]
+    }
+  ]
+}
